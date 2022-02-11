@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creating_Customize_Ruleset_files", "Creating_Customize_Ruleset_files\Creating_Customize_Ruleset_files.csproj", "{52B33A93-4B27-42DD-9BD3-CDC60DE65C66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{91341A79-C562-4973-A562-16D2F6C54F57}"
+	ProjectSection(SolutionItems) = preProject
+		MyRules.ruleset = MyRules.ruleset
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52B33A93-4B27-42DD-9BD3-CDC60DE65C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B33A93-4B27-42DD-9BD3-CDC60DE65C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B33A93-4B27-42DD-9BD3-CDC60DE65C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B33A93-4B27-42DD-9BD3-CDC60DE65C66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54FD4DCE-5428-40CD-A25A-190594DDCF2E}
+	EndGlobalSection
+EndGlobal

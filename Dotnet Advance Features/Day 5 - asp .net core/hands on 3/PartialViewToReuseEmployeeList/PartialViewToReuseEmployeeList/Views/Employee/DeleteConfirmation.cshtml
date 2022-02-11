@@ -1,0 +1,20 @@
+﻿@model PartialViewToReuseEmployeeList.Models.Employee
+@{
+    ViewData["Title"] = "DeleteConfirmation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Are you sure want to Delete Employee With the following details</h3>
+<hr />
+
+<partial name="~/Views/Shared/_EmpDetailsPartialView.cshtml" />
+<hr />
+<a asp-controller="Employee" asp-action="DeleteEmpById" asp-route-id="@Model.Id"> <input type="button" class="btn btn-primary" value="Delete"> </a>
+<a asp-controller="Employee" asp-action="GetEmployeeList"> <input type="button" class="btn btn-primary" value="No"> </a>
+<hr />
+
+<div>
+    <span>
+        <a asp-controller="Employee" asp-action="GetEmployeeList">Back To List</a>
+    </span>
+</div>

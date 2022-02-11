@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "ITOrganizations";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>ITOrganizations At Hyderabad</h1>
+@{
+    List<string> organizations = new List<string>();
+    organizations.Add("Microsoft www.microsoft.com");
+    organizations.Add("CTS www.cognizant.com");
+    organizations.Add("Google");
+    organizations.Add("Amazon");
+    organizations.Add("TCS");
+}
+
+@foreach(var item in organizations)
+{
+    if(item=="Amazon")
+    { 
+        <div>
+            <span><b>@item</b> : Amazon is the IT organization that has built its largest office at Hyderabad in 2019</span>
+        </div>
+    }
+    <div>
+        <span>@item</span>
+    </div>
+
+}

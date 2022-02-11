@@ -1,0 +1,52 @@
+﻿
+@model IEnumerable<PartialViewToReuseEmployeeList.Models.Employee>
+@{
+    ViewData["Title"] = "GetEmployeeList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>EmployeeList</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <h3><span>Employee Name</span></h3>
+        </div>
+        <div class="col-md-3">
+            <h3><span>Salary</span></h3>
+        </div>
+        <div class="col-md-3">
+            <h3><span>Is Permanent?</span></h3>
+        </div>
+        <hr />
+    </div>
+    @foreach (var item in Model)
+    {
+        <div class="row">
+            <div class="col-md-3">
+                <span>@item.Name</span>
+            </div>
+
+            <div class="col-md-3">
+                <span>@item.Salary</span>
+            </div>
+
+            <div class="col-md-3">
+                @if (item.IsPermanent == true)
+                {
+                    <span><b>@item.IsPermanent</b></span>
+                }
+                else
+                {
+                    <span>@item.IsPermanent</span>
+                }
+            </div>
+
+            <div class="col-md-3">
+                <span><a asp-controller="Employee" asp-action="GetEmpById" asp-route-id="@item.Id">Details</a></span>
+                <span><a asp-controller="Employee" asp-action="DeleteConfirmation" asp-route-id="@item.Id">Delete</a></span>
+            </div>
+            <hr />
+        </div>
+    }
+
+</div>

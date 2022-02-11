@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32113.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialViewToReuseEmployeeList", "PartialViewToReuseEmployeeList\PartialViewToReuseEmployeeList.csproj", "{7FA0EEEF-436C-426C-93AB-D7A7924338ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FA0EEEF-436C-426C-93AB-D7A7924338ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA0EEEF-436C-426C-93AB-D7A7924338ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA0EEEF-436C-426C-93AB-D7A7924338ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA0EEEF-436C-426C-93AB-D7A7924338ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {271DDB3D-1C96-4010-AF9A-83343EDE83E4}
+	EndGlobalSection
+EndGlobal

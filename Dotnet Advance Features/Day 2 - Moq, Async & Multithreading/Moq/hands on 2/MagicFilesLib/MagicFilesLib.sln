@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicFilesLib", "MagicFilesLib\MagicFilesLib.csproj", "{BB60E0E2-E210-44A8-9DBD-C48F1C934682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "d DirectoryExplorer.Test", "d DirectoryExplorer.Test\d DirectoryExplorer.Test.csproj", "{BF20408F-222A-47CA-B468-4C6B465C6F21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB60E0E2-E210-44A8-9DBD-C48F1C934682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB60E0E2-E210-44A8-9DBD-C48F1C934682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB60E0E2-E210-44A8-9DBD-C48F1C934682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB60E0E2-E210-44A8-9DBD-C48F1C934682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF20408F-222A-47CA-B468-4C6B465C6F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF20408F-222A-47CA-B468-4C6B465C6F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF20408F-222A-47CA-B468-4C6B465C6F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF20408F-222A-47CA-B468-4C6B465C6F21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A356A765-BBF5-4577-B01A-CFFDD8A633D0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<RazorViewToListEmployees.Models.Employee>
+@{
+    ViewData["Title"] = "GetEmployeeList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>GetEmployeeList</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h3><span>Employee name</span></h3>
+        </div>
+        <div class="col-md-4">
+            <h3><span>Salary</span></h3>
+        </div>
+        <div class="col-md-4">
+            <h3><span>IsPermanent</span></h3>
+        </div>
+    </div>
+    @foreach(var item in Model)
+    {
+    <div class="row">
+        <div class="col-md-4">
+            <span>@item.Name</span>
+        </div>
+        <div class="col-md-4">
+            <span>@item.Salary</span>
+        </div>
+        <div class="col-md-4">
+            @if (item.IsPermanent == true)
+            {
+                <span><b>@item.IsPermanent</b></span>
+            }
+            else
+            {
+                <span>@item.IsPermanent</span>
+            }
+
+        </div>
+    </div>
+    }   
+
+</div>
