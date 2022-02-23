@@ -1,0 +1,22 @@
+﻿@model IEnumerable<JWTinWebAPP.Models.Employee>
+@using System.Globalization;
+
+@{
+    ViewData["Title"] = "IndexAsync";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Employees</h1>
+@Html.ActionLink(linkText: "Add Employee", actionName: "AddEmployee", controllerName: "Employee", routeValues:null, htmlAttributes: new {@class = "btn btn-primary"})
+<hr size=10" color=black" />
+
+@foreach (var employee in Model)
+{
+    <h5>Name - @employee.Name</h5>
+    <p>Department - @employee.Department</p>
+    <p>DateOfBirth - @employee.DateOfBirth.ToString("dd/MM/yyyy") </p>
+    <p>Salary - Rs. @employee.Salary</p>
+    <p>Permanent - @employee.Permanent</p>
+    <hr />
+}
+
